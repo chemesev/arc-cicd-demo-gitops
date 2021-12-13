@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev
 
 images:
-  - name: esocregistry.azurecr.io/azure-vote-front
-    newTag: cc9f021cf364e3f28ad491ec87e9a3c2483c9dbf
-  - name: esocregistry.azurecr.io/azure-vote-back
-    newTag: cc9f021cf364e3f28ad491ec87e9a3c2483c9dbf
+  - name: esocregistry.azurecr.io/azvote/azure-vote-front
+    newTag: 4b3f91e3a7b7ae8ce7f21ce76aead3a72854e74d
+  - name: esocregistry.azurecr.io/azvote/azure-vote-back
+    newTag: 4b3f91e3a7b7ae8ce7f21ce76aead3a72854e74d
 resources:
   - manifests.yaml
